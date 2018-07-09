@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Simple Algebra Quiz</string>
+
+    <string name="question_one">Question 1</string>
+    <string name="question_one_text">What is 4 + 6?</string>
+    <string name="question_one_hint">answer</string>
+
+    <string name="question_two">Question 2</string>
+    <string name="question_two_text">What is √9?</string>
+    <string name="question_two_checkbox_one">3</string>
+    <string name="question_two_checkbox_two">6</string>
+    <string name="question_two_checkbox_three">81</string>
+    <string name="question_two_checkbox_four">-3</string>
+
+    <string name="question_three">Question 3</string>
+    <string name="question_three_text">What is 8 × 8 ÷ 16?</string>
+    <string name="question_three_radio_one">8</string>
+    <string name="question_three_radio_two">6</string>
+    <string name="question_three_radio_three">2</string>
+    <string name="question_three_radio_four">4</string>
+
+    <string name="question_four">Question 4</string>
+    <string name="question_four_text">What is 12² ÷ 6?</string>
+    <string name="question_four_hint">answer</string>
+
+    <string name="question_five">Question 5</string>
+    <string name="question_five_text">Which of these are prime numbers?</string>
+    <string name="question_five_checkbox_one">3</string>
+    <string name="question_five_checkbox_two">17</string>
+    <string name="question_five_checkbox_three">23</string>
+    <string name="question_five_checkbox_four">8</string>
+
+    <string name="question_six">Question 6</string>
+    <string name="question_six_text">What is 4 × 12 ÷ 6?</string>
+    <string name="question_six_radio_one">6</string>
+    <string name="question_six_radio_two">8</string>
+    <string name="question_six_radio_three">4</string>
+    <string name="question_six_radio_four">9</string>
+
+    <string name="submit_answers">submit answers</string>
+</resources>
