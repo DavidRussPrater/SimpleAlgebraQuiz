@@ -13,7 +13,7 @@ import android.widget.Toast;
  */
 
 public class MainActivity extends AppCompatActivity {
-    //Initializes global variables for storing the click state of questions three and sixes radio buttons
+    //Initializes global variables for storing the click state of questions three's and sixes radio buttons
     private boolean questionThreeChoice = false;
     private boolean questionSixChoice = false;
 
@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
     private boolean isChoiceQuestionFiveCheckBoxTwo = false;
     private boolean isChoiceQuestionFiveCheckBoxThree = false;
     private boolean isChoiceQuestionFiveCheckBoxFour = false;
+
+    //Initialize final score toast message
+    public String finalScoreToast =  "";
 
 
     @Override
@@ -182,8 +185,10 @@ public class MainActivity extends AppCompatActivity {
             score++;
         }
 
+        finalScoreToast = "You got " + score + " out of 6 questions correct";
+
         //This toast message displays the users score when the submit button is clicked
-        Toast.makeText(getApplicationContext(), "You got " + score + " out of 6 questions correct",
+        Toast.makeText(getApplicationContext(), finalScoreToast,
                 Toast.LENGTH_LONG).show();
     }
 }
